@@ -1,0 +1,8 @@
+read -p "Enter a number b/w 1 to 50 " number
+$even =$(($number%2))
+if [ $even -eq 0 ]
+then
+	echo "This is even Number ";
+else
+	echo "This is not even number ";
+fi
